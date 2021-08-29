@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "./libs/IBEP20.sol";
-import "./libs/SafeBEP20.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "/SafeMath.sol";
+import "/IBEP20.sol";
+import "/SafeBEP20.sol";
+import "/ReentrancyGuard.sol";
 
 contract Presale is ReentrancyGuard {
     using SafeMath for uint256;
